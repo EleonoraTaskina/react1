@@ -1,7 +1,7 @@
 export const TattooMashine = (props) => {
     return (
         <div className="tattoo-card">
-            <img src="" alt="tattoo" />
+            <img src="/public/images/tattoo/" alt="tattoo" />
             <h4>{props.mashine.produser}</h4>
             <h6>{props.mashine.model}</h6>
             <p>{props.mashine.pice} EUR</p>
