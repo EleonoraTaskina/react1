@@ -12,13 +12,16 @@ body {
 }
 
 header {
+  margin: 50px;
   width: 1000px;
-  height: 100px;
+  height: 120px;
   flex-shrink: 0;
   background: var(--Black, #050402);
 }
 
 header h1 {
+  margin: auto;
+  width: 50px;
   color: var(--txt-Orange, #BB8C5F);
   font-family: Forum;
   font-size: 30px;
@@ -29,6 +32,8 @@ header h1 {
 }
 
 header p {
+  margin: auto;
+  width: 50px;
   color: var(--txt-Orange, #BB8C5F);
   font-family: Jost;
   font-size: 14px;
@@ -40,6 +45,7 @@ header p {
 }
 
 main {
+  margin: 50px;
   background: #EEE;
   width: 1000px;
   height: 400px;
@@ -53,33 +59,73 @@ nav {
 }
 
 button {
-  background-color: #04AA6D; 
-  color: white;
-  padding: 15px 32px;
+  color: var(--txt-Orange, #BB8C5F);
+  text-align: center;
+  font-family: Jost;
+  font-size: 10px;
 }
 
 .tattoo-list {
-  display: grid;
-  grid-template-columns: repeat(4, 2fr);
-  grid-gap: 20px;
-  max-width: 300px;
+  display: flex;
+  max-width: 500px;
   gap: 20px;
+  text-align: center;
+  font-family: Jost;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 17px */
 }
 
 .tattoo-card {
   max-width: 300px;
   border: 1px solid lightgrey;
   font-size: 10px;
+  padding-bottom: 15px;
 }
 
-.tattoo img {
+.favorite {
+ position: relative;
+ top: auto;
+ left: 20px;
+  width: 100px;
+  height: 28px;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+.favorite.plus {
+ background-color: red;
+}
+
+.tattoo-card img {
   width: 100%;
   margin-bottom: 20px;
+  position: relative;
 }
 
-.tattoo-card h4, .tattoo-card h6, .tattoo-card p {
+.tattoo-card h4, .tattoo-card h6 {
   margin-top: 0 20px;
   margin-bottom: 10px;
   padding-left: 5px;
 }
 
+.tattoo-card p {
+  color: var(--txt-Orange, #BB8C5F);
+  font-family: Jost;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%; /* 31.2px */
+}
+
+
+.tattoo-counter {
+  display: flex;
+  padding-left: 10px;
+}
+
+.tattoo-counter .amount {
+  margin: 0 10px;
+  font-size: 10px;
+}

@@ -3,56 +3,64 @@ export const mashine = [
         produser: 'Foxxx Kitsune Mini Black',
         model: 'Vintage RCA',
         available: true,
-        price: 1000,
-        img:"tatMash1"
+        price: 4,
+        img:"tatMash1",
+        favorit: true
     },
     {
-        produser: 'Foxxx Kitsune Mini Black',
+        produser: 'Foxxx Kitsune Mini Silver',
         model: 'Vintage RCA',
         available: true,
-        price: 1000,
-        img:"tatMash2"
+        price: 5,
+        img:"tatMash2",
+        favorit: true
     },
     {
-        produser: 'Foxxx Kitsune Mini Black',
+        produser: 'Foxxx Kitsune Mini Black-1',
         model: 'Vintage RCA',
         available: true,
-        price: 1000,
-        img:"tatMash3"
+        price: 6,
+        img:"tatMash3",
+        favorit: true
     },
     {
-        produser: 'Foxxx Kitsune Mini Black',
+        produser: 'Foxxx Kitsune Mini Gold',
         model: 'Vintage RCA',
         available: true,
-        price: 1000,
-        img:"tatMash4"
+        price: 5,
+        img:"tatMash4",
+        favorit: true
     },
     {
-        produser: 'Foxxx Kitsune Mini Black',
+        produser: 'Foxxx Kitsune Mini Pink',
         model: 'Vintage RCA',
         available: true,
-        price: 1000,
-        img:"tatMash5"
+        price: 8,
+        img:"tatMash5",
+        favorit: true
     },
     {
-        produser: 'Foxxx Kitsune Mini Black',
+        produser: 'Foxxx Kitsune Mini Red',
         model: 'Vintage RCA',
         available: true,
-        price: 1000,
-        img:"tatMash6"
+        price: 7,
+        img:"tatMash6",
+        favorit: true
     },
     {
-        produser: 'Foxxx Kitsune Mini Black',
+        produser: 'Foxxx Kitsune Mini Black-3',
         model: 'Vintage RCA',
         available: true,
-        price: 1000,
-        img:"tatMash7"
+        price: 6,
+        img:"tatMash7",
+        favorit: true
     },
     {
-        produser: 'Foxxx Kitsune Mini Black',
+        produser: 'Foxxx Kitsune Mini Pink-1',
         model: 'Vintage RCA',
         available: true,
-        price: 1000,
-        img:"tatMash8"
+        price: 8,
+        img:"tatMash8",
+        favorit: true
     },
 ]
