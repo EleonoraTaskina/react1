@@ -12,8 +12,8 @@ body {
 }
 
 header {
-  width: 1920px;
-  height: 160px;
+  width: 1000px;
+  height: 100px;
   flex-shrink: 0;
   background: var(--Black, #050402);
 }
@@ -41,6 +41,8 @@ header p {
 
 main {
   background: #EEE;
+  width: 1000px;
+  height: 400px;
 }
 
 nav {
@@ -59,7 +61,7 @@ button {
 .tattoo-list {
   display: grid;
   grid-template-columns: repeat(4, 2fr);
-  grid-gap: 10px;
+  grid-gap: 20px;
   max-width: 300px;
   gap: 20px;
 }
@@ -67,7 +69,7 @@ button {
 .tattoo-card {
   max-width: 300px;
   border: 1px solid lightgrey;
-  font-size: 30px;
+  font-size: 10px;
 }
 
 .tattoo img {
@@ -76,7 +78,7 @@ button {
 }
 
 .tattoo-card h4, .tattoo-card h6, .tattoo-card p {
-  margin-top: o;
+  margin-top: 0 20px;
   margin-bottom: 10px;
   padding-left: 5px;
 }
